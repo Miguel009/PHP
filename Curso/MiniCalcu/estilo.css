@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #323232;
+}
+
+.formu{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2d132c;
+    text-align: center;
+    border-radius: 5%;
+    border: 1px solid #fff;
+}
+
+.formu h1{
+    text-align: center;
+    background: #2d132c;
+    color: #c72c41;
+}
+
+.formu input[type= "text"], .formu input [type="text"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #c72c41;
+    border-radius: 24px;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    transition: 0.25s;
+    outline: none;
+}
+
+.formu input[type= "text"]:focus, .formu input [type="text"]:focus
+{
+    border-color:#c5c5c5;
+}
+
+.btn{
+    border: none;
+    color: #c72c41;
+    background-color: antiquewhite;
+    outline: none;
+    padding: .8rem;
+    border-radius: 5%;
+    font-size: .85rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.btn:hover{
+    color: antiquewhite;
+    background-color: #c72c41;
+}
+
+.btn:active{
+    color: antiquewhite;
+    background-color: #c05c69;
+}
+
+.Respuesta{
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
