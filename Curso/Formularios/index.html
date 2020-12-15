@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/estilos.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="formulario">
+    <form action="back/formu.php" method="POST">
+        <table>
+            <tr>
+                <td><input type="text" placeholder="Coloque el nombre" name="nombre"></td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="Coloque contra" name="contra"></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="genero" id="masculino" value="masculino"><label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" id="femenino" value="femenino"><label for="femenino">Femenino</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="email" name="email" placeholder="Coloque correo"></td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="materia">
+                        <option value="Calculo">Calculo</option>
+                        <option value="Fisica">Fisica</option>
+                        <option value="Lenguaje">Lenguaje</option>
+                        <option value="Programacion">Programacion</option>
+                        <option value="Sociales">Sociales</option>
+                    </select>
+                    <input type="phone" name="telefono" placeholder="Coloque telefono">
+                </td>
+            </tr>
+        </table>
+        <button class="buton">Enviar</button>
+    </form>
+</div>
+</body>
+</html>
