@@ -15,4 +15,12 @@ echo $curso."<br/>";
 
 define('constantes', 'Esta es una variable constantes');
 echo constantes;
+/*otra forma de poner una constante es la siguiente */
+
+const nuev= "otra var consante";
+
+echo nuev;
+
+/*la diferencia de las dos maneras es que el const la define en el tiempo de compilacion+
+y define la define en el tiempo de ejecucion */
 ?>

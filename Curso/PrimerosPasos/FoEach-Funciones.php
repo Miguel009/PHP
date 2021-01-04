@@ -24,4 +24,26 @@ function nueva2(
 }
 
 nueva2("nuevo");
+
+/*aqui lo que podemos ver es como manipular o cambiar una variable ene este caso 
+se debe colocar el signo & para que se pueda modificar una variable global */
+$x = 10;
+
+function anadirPorValor($x)
+{
+    $x+=5;
+}
+
+function anadirReferencia(&$x)
+{
+    $x+=10;
+}
+
+anadirPorValor($x);
+echo "el valor es : ". $x;
+
+anadirReferencia($x);
+echo "el valor es : ". $x;
+
+
 ?>
