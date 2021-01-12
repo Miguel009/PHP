@@ -8,6 +8,13 @@ function sumar(){
 
 sumar();
 echo $s;
+/*variables SUPER GLOBAL */
+/*$_POST */
+/*$_GET */
+/*$_SERVER*/
+/*$_COOKIE*/
+/*$_SESSION */
+/*$_FILES */
 /*SERVER trae informacion del servidor y posee bastantes funciones o llamadas a variables diferentes */
 echo $_SERVER['PHP_SELF'];
 echo $_SERVER['SERVER_NAME'];
